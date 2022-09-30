@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    border: 2px solid rgb(165, 65, 65);
+    max-width: 1500px;
+    margin:  0 auto; 
+   height: 100vh;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+   
+    display: flex;
+    justify-content: right;
+    height: 10%;
+    box-shadow: 5px 0 12px black;
+    background: #fff;
+}
+.navigation{
+
+}
+.nav-box{
+    display: flex;
+    width: 300px; 
+   
+    justify-content:space-between;
+    height: 100%;
+    align-items: center;
+}
+.nav-box > li{
+list-style-type:none;
+font-size: 20px;
+font-weight: 500;
+cursor: pointer;
+}
+.banner{
+    margin: 5px 0;
+    padding: 10px;
+    height: 70%;
+    border: 2px solid blue;
+    display: flex;
+}
+img{ 
+    max-width: 100%;
+    height: auto;
+}
+ /*left box styling*/
+.left-box{
+    width: 60%;
+    /* position: absolute; */
+    border: 2px solid red;
+}
+.inner-left-box{
+    border: 2px solid blue;
+    width: 80%;
+    height: 100%;
+     top: 120px;
+    left: 250px; 
+}
+.left-box > .inner-left-box > h1{
+    color: #212242;
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 40px;
+     /* line-height: 80px;
+     font-weight: 700; */
+}
+.left-box > .inner-left-box > p{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.right-box{
+    border: 2px solid red;
+     width: 40%;
+}
+
+.img-box{
+    border: 2px solid green;
+    width: 200px;
+    height: 200px;
+}
+.img-box > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.btn{
+    background-color: tomato;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+/* recent post styling */
+  .recent-post{
+    background-color: whitesmoke;
+    border: 2px solid red;
+    height: 100%;
+    width:100%;
+    display:flex;
+   
+    } 
+ /* .top-text, .class-wrapper{
+    border: 2px solid blue;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px 20px;
+}  */
+.top-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+ .top-text > h4 > a{
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+    line-height: 24px;
+}
+.card{
+    border: 2px solid red;
+    width: 50%;
+    height: auto;
+    padding: 10px 20px;
+    display: flex;
+} 
