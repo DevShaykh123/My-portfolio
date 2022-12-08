@@ -1,133 +1,106 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-main{
-    border: 2px solid rgb(165, 65, 65);
-    max-width: 1500px;
-    margin:  0 auto; 
-   height: 100vh;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-header{
-   
-    display: flex;
-    justify-content: right;
-    height: 10%;
-    box-shadow: 5px 0 12px black;
-    background: #fff;
-}
-.navigation{
-
-}
-.nav-box{
-    display: flex;
-    width: 300px; 
-   
-    justify-content:space-between;
-    height: 100%;
-    align-items: center;
-}
-.nav-box > li{
-list-style-type:none;
-font-size: 20px;
-font-weight: 500;
-cursor: pointer;
-}
-.banner{
-    margin: 5px 0;
-    padding: 10px;
-    height: 70%;
-    border: 2px solid blue;
-    display: flex;
-}
-img{ 
-    max-width: 100%;
-    height: auto;
-}
- /*left box styling*/
-.left-box{
-    width: 60%;
-    /* position: absolute; */
-    border: 2px solid red;
-}
-.inner-left-box{
-    border: 2px solid blue;
-    width: 80%;
-    height: 100%;
-     top: 120px;
-    left: 250px; 
-}
-.left-box > .inner-left-box > h1{
-    color: #212242;
+p{
+    color: #21243d;
     font-family: 'Heebo';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 40px;
-     /* line-height: 80px;
-     font-weight: 700; */
-}
-.left-box > .inner-left-box > p{
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
-.right-box{
-    border: 2px solid red;
-     width: 40%;
-}
 
-.img-box{
-    border: 2px solid green;
-    width: 200px;
-    height: 200px;
+.ul-wrapper > li{
+    display: inline-block;
+    padding:  0 20px;
 }
-.img-box > img{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
+header{
+    display: flex;
+    justify-content: right;
 }
-.btn{
-    background-color: tomato;
-    border-radius: 3px;
-    margin-top: 15px;
+/*.ul-wrapper > li:nth-child(2){
+    color: #0000;  
+}*/
+.ul-wrapper > li:nth-child(1){
+color: #ff6464;
 }
-
-/* recent post styling */
-  .recent-post{
-    background-color: whitesmoke;
-    border: 2px solid red;
-    height: 100%;
-    width:100%;
-    display:flex;
-   
-    } 
- /* .top-text, .class-wrapper{
-    border: 2px solid blue;
-    width: 70%;
+/*.ul-wrapper > li:nth-child(3){
+    color: #0000;  
+}*/
+ul{
+   /* border: 2px solid red;*/
+    cursor: pointer;
+    list-style-type: none;
+    display: block;
+}
+.section-wrapper{
+   /* border: 2px solid red; */
+    color: black;
+    
+    
+}
+body{
+    width: 60%;
     margin: 0 auto;
-    padding: 5px 20px;
-}  */
-.top-text{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    /* background-color: cornflowerblue; */
 }
- .top-text > h4 > a{
-    text-decoration: none;
-    color: blue;
-    font-size: 16px;
-    line-height: 24px;
+#title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    
+
 }
-.card{
-    border: 2px solid red;
-    width: 50%;
-    height: auto;
-    padding: 10px 20px;
+div{
+   /* border: 2px solid purple ;*/
+    margin: 20px;
+}
+h2{
+    font-size: 30px;
+}
+span{
+    font-size:20px;
+  
+    /*display: flex;
+    justify-content: space-between;*/
+    
+    }
+#sp1{
+    border-right: 1px solid black; 
+    padding-right: 5px;
+}
+#sp2{
+    
+    padding-left: 10px;
+}
+#title > h1{
+    text-align: left;
+    font-size: 30px;
+   /* text-shadow: 5px 15px 10px black;*/
+}
+.footer-wrapper{
+   text-align: center; 
+   width: 100%;
+   padding: 50px; 
+   gap: 2px;
+  
+}
+#pic{
+   display: flex;
+   flex-direction: row;
+   /* border:  2px solid red ; */
+   justify-content: center;
+   justify-content: space-evenly;
+}
+#copy{
+    margin-top:20px ;
+    justify-content:center;
     display: flex;
-} 
+    /* border:  2px dashed blue; */
+}
+.footer-wrapper{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}

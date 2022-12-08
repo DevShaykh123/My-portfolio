@@ -26,9 +26,7 @@ body{
 main{
     background-color: darkgray;
 }
-/* .section-wrapper{
 
-} */
 #title{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
@@ -41,33 +39,50 @@ main{
      
 }
 .spd{
-    /* margin: 20px; */
-    /* padding-left: 20px; */
-    border: 2px  solid black;
+   
     margin-left: 20px ;
     
 }
-h2{
 
-}
 .vib{
     display: flex;
     margin: 20px;
 }
+.spv{
+   
+    margin-left: 20px ;
+}
 .Days{  
-display: flex;
+    display: flex;
     margin: 20px;
+}
+.spd2{
+    
+    margin-left: 20px ;
 }
 .comp{
     display: flex;
     margin: 20px;
 }
+.spc{
+   
+    margin-left: 20px ;
+}
 .footer-wrapper{
 display: flex;
+flex-direction: column;
+align-items: center;
+
+
 }
 .pic{
-
+display: flex;
+width: 50%;
+justify-content: space-evenly;
 }
 .copy{
-
+width: 50%;
+justify-content: center;
+display: flex;
+padding-right: 5px;
 }
